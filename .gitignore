@@ -172,3 +172,6 @@ cython_debug/
 
 # pdf file
 *.pdf
+
+# others
+.DS_Store
