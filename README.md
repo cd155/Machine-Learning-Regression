@@ -3,20 +3,20 @@ nix-shell shell.nix
 
 # Python environment instruction
 
-## go the direcotry
+## Go the direcotry
 cd Projects/testpython/
 
 ## Optional: create python virtual environment
-## python3 -m venv env
+python3 -m venv env
 
-## activate virtual environment
+## Activate virtual environment
 source env/bin/activate
 
 ## Optional: install all required packages
-## pip install -r requirements.txt
+pip install -r requirements.txt
 
-## launch jupyter notebook
+## Launch jupyter notebook
 jupyter notebook
 
-## exit virtual environment
+## Exit virtual environment
 deactivate 
